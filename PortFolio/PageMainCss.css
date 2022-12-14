@@ -1,0 +1,538 @@
+@media screen and (min-width: 1200px) {
+    body{
+        background-color: black;
+        width: 80vw;
+        max-width: 1536px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /*______________________________________________*/
+    header{
+        padding-bottom: 1vh;
+        border-bottom:solid 1px white;
+    }
+    #NomPrenomIMG{
+        padding-top: 1vh;
+        margin-left: 1vh;
+        margin-right: 1vh;
+    }
+    #photoProfil{
+        width: 360px;
+        border:solid 1px white;
+        border-radius: 180px;
+    }
+    #photoProfil:hover{
+        border:solid 1px grey;
+    }
+    #banText{
+        text-align: center;
+        margin-top: auto;
+        margin-bottom: auto;
+        font-size: 105px;
+        color: white;
+    }
+    #banText:hover{
+        color: grey;
+    }
+    /*______________________________________________*/
+    #information{
+        color: white;
+        margin-bottom: 1vh;
+        padding-bottom: 1vh;
+        border-bottom:solid 1px white;
+    }
+    #information h1{
+        text-align: center;
+        margin-bottom: 1vw;
+        font-size:50px;
+    }
+    #information h2{
+        text-align: center;
+        font-size:20px;
+    }
+    #mail,#linkedin,#cv{
+        align-items: center;
+        text-align: center;
+        font-size:30px;
+    }
+    #imagemail,#imagelinkedin,#imagecv{
+        width: 10vw;
+    }
+    #imagemail:hover,#imagelinkedin:hover,#imagecv:hover{
+        background-color: gray;
+        border-radius: 10px;
+    }
+    /*______________________________________________*/
+    #pong{
+        border-right:solid 1px white;
+        border-bottom:solid 1px white;
+    }
+    #comparaisonalgo{
+        border-bottom:solid 1px white;
+    }
+    #sitepc{
+        border-right:solid 1px white;
+    }
+    #bd{
+        border-right:solid 1px white;
+        border-top:solid 1px white;
+    }
+    #lowa{
+        border-top:solid 1px white;
+    }
+    #pong h2,#comparaisonalgo h2,#sitepc h2,#vm h2,#bd h2,#lowa h2{
+        text-align: center;
+        font-size:50px;
+        color: white;
+    }
+    #pong p,#comparaisonalgo p,#sitepc p,#vm p,#bd p,#lowa p{
+        text-align: center;
+        font-size:20px;
+        color: white;
+    }
+    #imagepong,#imagecomparaisonalgo,#imagesitepc,#imagevm,#imagebd,#imagelowa{
+        width: 100%;
+    }
+    #pong:hover,#comparaisonalgo:hover,#sitepc:hover,#vm:hover,#bd:hover,#lowa:hover{
+        background-color: gray;
+    }
+    /*______________________________________________*/
+    #Formulaire{
+        border-top:solid 1px white;
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+        text-align: center;
+        color: white;
+
+    }
+    #Formulaire h1{
+        color: white;
+        font-size:50px;
+    }
+    #nom,#prenom,#mail{
+        width: 840px;
+    }
+    #text{
+        resize: none;
+    }
+    #text:invalid,#mail:invalid,#nom:invalid,#prenom:invalid {
+        border: 2px solid red;
+    }
+    /*______________________________________________*/
+    footer{
+        background-color: gray;
+        text-align: center;
+        color: white;
+        width: 100vw;
+        font-size: 10px;
+        margin-left: -10vw;
+
+    }
+}
+/*__________________________________________________________________________________________________________________________________________________________________________________________________________*/
+/*__________________________________________________________________________________________________________________________________________________________________________________________________________*/
+@media screen and (max-width: 1199px) {
+    body{
+        background-color: black;
+        width: 95vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /*______________________________________________*/
+    header{
+        padding-bottom: 1vh;
+        border-bottom:solid 1px white;
+    }
+    #NomPrenomIMG{
+        padding-top: 1vh;
+        margin-left: 1vh;
+        margin-right: 1vh;
+    }
+    #photoProfil{
+        width: 360px;
+        border:solid 1px white;
+        border-radius: 180px;
+    }
+    #photoProfil:hover{
+        border:solid 1px grey;
+    }
+    #banText{
+        text-align: center;
+        margin-top: auto;
+        margin-bottom: auto;
+        font-size: 90px;
+        color: white;
+    }
+    #banText:hover{
+        color: grey;
+    }
+    /*______________________________________________*/
+    #information{
+        color: white;
+        margin-bottom: 1vh;
+        padding-bottom: 1vh;
+        border-bottom:solid 1px white;
+    }
+    #information h1{
+        text-align: center;
+        margin-bottom: 1vw;
+        font-size:50px;
+    }
+    #information h2{
+        text-align: center;
+        font-size:20px;
+    }
+    #mail,#linkedin,#cv{
+        align-items: center;
+        text-align: center;
+        font-size:30px;
+    }
+    #imagemail,#imagelinkedin,#imagecv{
+        width: 10vw;
+    }
+    #imagemail:hover,#imagelinkedin:hover,#imagecv:hover{
+        background-color: gray;
+        border-radius: 10px;
+    }
+    /*______________________________________________*/
+    #pong{
+        border-right:solid 1px white;
+        border-bottom:solid 1px white;
+    }
+    #comparaisonalgo{
+        border-bottom:solid 1px white;
+    }
+    #sitepc{
+        border-right:solid 1px white;
+    }
+    #bd{
+        border-right:solid 1px white;
+        border-top:solid 1px white;
+    }
+    #lowa{
+        border-top:solid 1px white;
+    }
+    #pong h2,#comparaisonalgo h2,#sitepc h2,#vm h2,#bd h2,#lowa h2{
+        text-align: center;
+        font-size:50px;
+        color: white;
+    }
+    #pong p,#comparaisonalgo p,#sitepc p,#vm p,#bd p,#lowa p{
+        text-align: center;
+        font-size:20px;
+        color: white;
+    }
+    #imagepong,#imagecomparaisonalgo,#imagesitepc,#imagevm,#imagebd,#imagelowa{
+        width: 100%;
+    }
+    #pong:hover,#comparaisonalgo:hover,#sitepc:hover,#vm:hover,#bd:hover,#lowa:hover{
+        background-color: gray;
+    }
+    /*______________________________________________*/
+    #Formulaire{
+        border-top:solid 1px white;
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+        text-align: center;
+        color: white;
+
+    }
+    #Formulaire h1{
+        color: white;
+        font-size:50px;
+    }
+    #nom,#prenom,#mail{
+        width: 840px;
+    }
+    #text{
+        resize: none;
+    }
+    #text:invalid,#mail:invalid,#nom:invalid,#prenom:invalid {
+        border: 2px solid red;
+    }
+    /*______________________________________________*/
+    footer{
+        background-color: gray;
+        text-align: center;
+        color: white;
+        width: 100vw;
+        font-size: 10px;
+        margin-left: -2.5vw;
+
+    }
+}
+/*__________________________________________________________________________________________________________________________________________________________________________________________________________*/
+/*__________________________________________________________________________________________________________________________________________________________________________________________________________*/
+@media screen and (max-width: 991px) {
+    body{
+        background-color: black;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /*______________________________________________*/
+    header{
+        padding-bottom: 1vh;
+        border-bottom:solid 1px white;
+    }
+    #NomPrenomIMG{
+        padding-top: 1vh;
+        margin-left: 1vh;
+        margin-right: 1vh;
+    }
+    #photoProfil{
+        width: 360px;
+        border:solid 1px white;
+        border-radius: 180px;
+    }
+    #photoProfil:hover{
+        border:solid 1px grey;
+    }
+    #banText{
+        text-align: center;
+        margin-top: auto;
+        margin-bottom: auto;
+        font-size: 80px;
+        color: white;
+    }
+    #banText:hover{
+        color: grey;
+    }
+    /*______________________________________________*/
+    #information{
+        color: white;
+        margin-bottom: 1vh;
+        padding-bottom: 1vh;
+        border-bottom:solid 1px white;
+    }
+    #information h1{
+        text-align: center;
+        margin-bottom: 1vw;
+        font-size:50px;
+    }
+    #information h2{
+        text-align: center;
+        font-size:20px;
+    }
+    #mail,#linkedin,#cv{
+        align-items: center;
+        text-align: center;
+        font-size:30px;
+    }
+    #imagemail,#imagelinkedin,#imagecv{
+        width: 10vw;
+    }
+    #imagemail:hover,#imagelinkedin:hover,#imagecv:hover{
+        background-color: gray;
+        border-radius: 10px;
+    }
+    /*______________________________________________*/
+    #pong{
+        border-bottom:solid 1px white;
+        text-align: center;
+    }
+    #comparaisonalgo{
+        border-bottom:solid 1px white;
+        text-align: center;
+    }
+    #sitepc{
+        border-bottom:solid 1px white;
+        text-align: center;
+    }
+    #vm{
+        border-bottom:solid 1px white;
+        text-align: center;
+    }
+    #bd{
+        border-bottom:solid 1px white;
+        text-align: center;
+    }
+    #lowa{
+        text-align: center;
+    }
+    #pong h2,#comparaisonalgo h2,#sitepc h2,#vm h2,#bd h2,#lowa h2{
+        text-align: center;
+        font-size:50px;
+        color: white;
+    }
+    #pong p,#comparaisonalgo p,#sitepc p,#vm p,#bd p,#lowa p{
+        text-align: center;
+        font-size:20px;
+        color: white;
+    }
+    #imagepong,#imagecomparaisonalgo,#imagesitepc,#imagevm,#imagebd,#imagelowa{
+        width: 70%;
+    }
+    #pong:hover,#comparaisonalgo:hover,#sitepc:hover,#vm:hover,#bd:hover,#lowa:hover{
+        background-color: gray;
+    }
+    /*______________________________________________*/
+    #Formulaire{
+        border-top:solid 1px white;
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+        text-align: center;
+        color: white;
+
+    }
+    #Formulaire h1{
+        color: white;
+        font-size:50px;
+    }
+    #nom,#prenom,#mail{
+        width: 840px;
+    }
+    #text{
+        resize: none;
+    }
+    #text:invalid,#mail:invalid,#nom:invalid,#prenom:invalid {
+        border: 2px solid red;
+    }
+    /*______________________________________________*/
+    footer{
+        background-color: gray;
+        text-align: center;
+        color: white;
+        width: 100vw;
+        font-size: 10px;
+        margin-left: -2.5vw;
+
+    }
+}
+/*__________________________________________________________________________________________________________________________________________________________________________________________________________*/
+/*__________________________________________________________________________________________________________________________________________________________________________________________________________*/
+@media screen and (max-width: 767px) {
+    body{
+        background-color: black;
+        width: 95vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /*______________________________________________*/
+    header{
+        padding-bottom: 1vh;
+        border-bottom:solid 1px white;
+    }
+    #NomPrenomIMG{
+        padding-top: 1vh;
+        margin-left: auto;
+        margin-right: auto;
+        width: 360px;
+        
+    }
+    #photoProfil{
+        width: 360px;
+        border:solid 1px white;
+        border-radius: 180px;
+        
+    }
+    #photoProfil:hover{
+        border:solid 1px grey;
+    }
+    #banText{
+        font-size: 80px;
+        color: white;
+    }
+    #banText:hover{
+        color: grey;
+    }
+    /*______________________________________________*/
+    #information{
+        color: white;
+        margin-bottom: 1vh;
+        padding-bottom: 1vh;
+        border-bottom:solid 1px white;
+    }
+    #information h1{
+        text-align: center;
+        margin-bottom: 1vw;
+        font-size:50px;
+    }
+    #information h2{
+        text-align: center;
+        font-size:20px;
+    }
+    #mail,#linkedin,#cv{
+        align-items: center;
+        text-align: center;
+        font-size:30px;
+    }
+    #imagemail,#imagelinkedin,#imagecv{
+        width: 20vw;
+    }
+    #imagemail:hover,#imagelinkedin:hover,#imagecv:hover{
+        background-color: gray;
+        border-radius: 10px;
+    }
+    /*______________________________________________*/
+    #pong{
+        border-bottom:solid 1px white;
+        text-align: center;
+    }
+    #comparaisonalgo{
+        border-bottom:solid 1px white;
+        text-align: center;
+    }
+    #sitepc{
+        border-bottom:solid 1px white;
+        text-align: center;
+    }
+    #vm{
+        border-bottom:solid 1px white;
+        text-align: center;
+    }
+    #bd{
+        border-bottom:solid 1px white;
+        text-align: center;
+    }
+    #lowa{
+        text-align: center;
+    }
+    #pong h2,#comparaisonalgo h2,#sitepc h2,#vm h2,#bd h2,#lowa h2{
+        text-align: center;
+        font-size:50px;
+        color: white;
+    }
+    #pong p,#comparaisonalgo p,#sitepc p,#vm p,#bd p,#lowa p{
+        text-align: center;
+        font-size:20px;
+        color: white;
+    }
+    #imagepong,#imagecomparaisonalgo,#imagesitepc,#imagevm,#imagebd,#imagelowa{
+        width: 70%;
+    }
+    #pong:hover,#comparaisonalgo:hover,#sitepc:hover,#vm:hover,#bd:hover,#lowa:hover{
+        background-color: gray;
+    }
+    /*______________________________________________*/
+    #Formulaire{
+        border-top:solid 1px white;
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+        text-align: center;
+        color: white;
+
+    }
+    #Formulaire h1{
+        color: white;
+        font-size:50px;
+    }
+    #nom,#prenom,#mail{
+        width: 840px;
+    }
+    #text{
+        resize: none;
+    }
+    #text:invalid,#mail:invalid,#nom:invalid,#prenom:invalid {
+        border: 2px solid red;
+    }
+    /*______________________________________________*/
+    footer{
+        background-color: gray;
+        text-align: center;
+        color: white;
+        width: 100vw;
+        font-size: 10px;
+        margin-left: -2.5vw;
+
+    }
+}
