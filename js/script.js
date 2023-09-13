@@ -1,7 +1,7 @@
 var typed = new Typed(".typing",{
     strings:["Maxim Lyoen","Développeur"],
-    typeSpeed:80,
-    BackSpeed:20,
+    typeSpeed:150,
+    BackSpeed:200,
     loop:true
 })
 document.getElementById("language").innerHTML = 'Français';
