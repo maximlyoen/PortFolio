@@ -1,22 +1,21 @@
 body {
-  width: 100vw;
+  width: 100%;
 }
 
 /****************************************************************************/
 /****************************************************************************/
 /****************************************************************************/
-/****************************************************************************/
-/****************************************************************************/
-/****************************************************************************/
-/****************************************************************************/
 /***********************************Header***********************************/
+/****************************************************************************/
+/****************************************************************************/
+/****************************************************************************/
 header nav {
   display: flex;
   position: fixed;
   width: 100%;
   border: none;
   flex-direction: row;
-  background-color: grey;
+  background-color: rgba(220, 220, 220, 0.5);
   z-index: 1;
 }
 
@@ -29,7 +28,6 @@ header nav div {
 header nav div div h1 {
   font-size: 35px;
   margin-left: 8px;
-  color: white;
 }
 
 #titreHeader {
@@ -39,16 +37,14 @@ header nav div div h1 {
   height: 100%;
   color: white;
   font-size: 20px;
-}
-#titreHeader:hover {
-  color: white;
+  text-decoration: none;
 }
 
 .navButton {
   display: inline-block;
   width: 100%;
   height: 106px;
-  background-color: gray;
+  background-color: rgba(220, 220, 220, 0.5);
   overflow: hidden;
   filter: hue-rotate(0deg);
   transition: all 0.1s linear;
@@ -81,7 +77,7 @@ header nav div div h1 {
   filter: hue-rotate(60deg);
   top: -100%;
   right: 0;
-  width: 35px;
+  width: 90px;
   height: 100%;
   background: linear-gradient(180deg, transparent, #3a86ff);
   animation: animate2 1s linear infinite;
@@ -118,7 +114,7 @@ header nav div div h1 {
   filter: hue-rotate(300deg);
   bottom: -100%;
   left: 0;
-  width: 35px;
+  width: 90px;
   height: 100%;
   background: linear-gradient(360deg, transparent, #3a86ff);
   animation: animate4 1s linear infinite;
@@ -133,50 +129,160 @@ header nav div div h1 {
   }
 }
 
-header #language a {
-  position: fixed;
-  font-size: 20px;
-  width: 140px;
-  height: 40px;
-  margin-top: 80px;
-  line-height: 37px;
-  text-decoration: none;
-  text-transform: uppercase;
-  text-align: center;
-  color: var(--color-white);
-  transition: var(--speed-normal);
-  border: 1px solid var(--color-red);
-}
-header #language a:hover {
+#borderMenu {
+  display: inline-block;
+  width: 100%;
+  height: 106px;
+  overflow: hidden;
+  filter: hue-rotate(0deg);
+  transition: all 0.1s linear;
   border: 1px solid transparent;
-  background: var(--color-red) url(https://i.postimg.cc/wBXGXbWN/pixel.png);
-  transition-delay: 0.8s;
-  background-size: 180px;
-  animation: animate var(--speed-fast) steps(8) forwards;
+  cursor: default;
 }
-header #language a:last-of-type {
-  border: 1px solid var(--color-purple);
+#borderMenu span {
+  position: absolute;
+  display: block;
 }
-header #language a:last-of-type:hover {
-  background: var(--color-purple) url(https://i.postimg.cc/FzBWFtKM/pixel2.png);
+#borderMenu span:nth-child(1) {
+  filter: hue-rotate(0deg);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  background: linear-gradient(90deg, transparent, #3a86ff);
+  animation: animate1 1s linear infinite;
+}
+@keyframes animate1 {
+  0% {
+    left: -100%;
+  }
+  50%, 100% {
+    left: 100%;
+  }
+}
+#borderMenu span:nth-child(2) {
+  filter: hue-rotate(60deg);
+  top: -100%;
+  right: 0;
+  width: 5px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, #3a86ff);
+  animation: animate2 1s linear infinite;
+  animation-delay: 0.25s;
+}
+@keyframes animate2 {
+  0% {
+    top: -100%;
+  }
+  50%, 100% {
+    top: 100%;
+  }
+}
+#borderMenu span:nth-child(3) {
+  filter: hue-rotate(120deg);
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  background: linear-gradient(270deg, transparent, #3a86ff);
+  animation: animate3 1s linear infinite;
+  animation-delay: 0.5s;
+}
+@keyframes animate3 {
+  0% {
+    right: -100%;
+    height: 5px;
+  }
+  50%, 100% {
+    right: 100%;
+    height: 5px;
+  }
+}
+#borderMenu span:nth-child(4) {
+  filter: hue-rotate(300deg);
+  bottom: -100%;
+  left: 0;
+  width: 5px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, #3a86ff);
+  animation: animate4 1s linear infinite;
+  animation-delay: 0.75s;
+}
+@keyframes animate4 {
+  0% {
+    bottom: -100%;
+  }
+  50%, 100% {
+    bottom: 100%;
+  }
 }
 
-@keyframes animate {
-  0% {
-    background-position-y: 0;
-  }
-  100% {
-    background-position-y: -480px;
-  }
+#buttonLanguage {
+  --c: white;
+  color: var(--c);
+  font-size: 16px;
+  border: 0.3em solid var(--c);
+  border-radius: 0.5em;
+  width: 160px;
+  height: 50px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: sans-serif;
+  letter-spacing: 0.1em;
+  text-align: center;
+  line-height: 3em;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  transition: 0.5s;
+  margin: 1em;
+  text-decoration: none;
+  cursor: default;
 }
-/****************************************************************************/
-/****************************************************************************/
-/****************************************************************************/
-/****************************************************************************/
+
+#buttonLanguage span {
+  position: absolute;
+  width: 67%;
+  height: 100%;
+  background-color: var(--c);
+  transform: translateY(150%);
+  border-radius: 50%;
+  left: calc((var(--n) - 1) * 25%);
+  transition: 0.5s;
+  transition-delay: calc((var(--n) - 1) * 0.1s);
+  z-index: -1;
+}
+
+#buttonLanguage:hover {
+  color: black;
+}
+
+#buttonLanguage:hover span {
+  transform: translateY(0) scale(2);
+}
+
+#buttonLanguage span:nth-child(1) {
+  --n: 1;
+}
+
+#buttonLanguage span:nth-child(2) {
+  --n: 2;
+}
+
+#buttonLanguage:nth-child(3) {
+  --n: 3;
+}
+
+#buttonLanguage:nth-child(4) {
+  --n: 4;
+}
+
 /****************************************************************************/
 /****************************************************************************/
 /****************************************************************************/
 /********************************presentation********************************/
+/****************************************************************************/
+/****************************************************************************/
+/****************************************************************************/
 #presantation {
   display: flex;
   flex-direction: column;
