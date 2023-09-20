@@ -527,7 +527,17 @@ header nav div div h1 {
 #competencepage {
   background-image: radial-gradient(circle at 50% -20.71%, #ffffa1 0, #f5ffa0 6.25%, #e4ffa0 12.5%, #d2ffa1 18.75%, #bdffa3 25%, #a7fda6 31.25%, #8cfaaa 37.5%, #6cf7af 43.75%, #3cf2b5 50%, #00edbc 56.25%, #00e8c6 62.5%, #00e4d0 68.75%, #00dfdc 75%, #00dbe9 81.25%, #00d7f5 87.5%, #00d3ff 93.75%, #00d0ff 100%);
   height: 100vh;
-  width: 100%;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  padding-top: 50px;
+  justify-content: center;
+  padding-bottom: 150px;
+}
+
+#competencepage h1 {
+  font-size: 60px;
+  margin-top: 20%;
 }
 
 @keyframes scroll {
@@ -535,23 +545,23 @@ header nav div div h1 {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(-1750px);
+    transform: translateX(-22400px);
   }
 }
 .slider {
   box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
-  height: 220px;
-  margin: auto;
+  height: 450px;
   overflow: hidden;
   position: relative;
-  width: 100%;
+  width: 100vw;
+  margin-top: 100px;
 }
 .slider::before, .slider::after {
   background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 100%);
   content: "";
-  height: 100px;
+  height: 400px;
   position: absolute;
-  width: 200px;
+  width: 400px;
   z-index: 2;
 }
 .slider::after {
@@ -564,13 +574,55 @@ header nav div div h1 {
   top: 0;
 }
 .slider .slide-track {
-  animation: scroll 10s linear infinite;
+  animation: scroll 50s linear infinite;
   display: flex;
-  width: 3500px;
+  width: 22400px;
 }
 .slider .slide {
-  height: 100px;
-  width: 250px;
+  height: 400px;
+  width: 400px;
+  margin-right: 80px;
+}
+
+@keyframes slide {
+  from {
+    background-position-x: 0;
+  }
+  to {
+    background-position-x: 113px;
+  }
+}
+@keyframes animate-stripes {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 60px 0;
+  }
+}
+.progress-bar {
+  background-color: purple;
+  height: 60px;
+  width: 100vw;
+  position: relative;
+  top: -50px;
+}
+
+.stripes {
+  background-size: 30px 30px;
+  background-image: linear-gradient(135deg, rgb(255, 0, 0) 25%, transparent 25%, transparent 50%, rgb(255, 0, 0) 50%, rgb(255, 0, 0) 75%, transparent 75%, transparent);
+}
+
+.stripes.animated {
+  animation: animate-stripes 0.6s linear infinite;
+}
+
+.stripes.animated.slower {
+  animation-duration: 0.134s;
+}
+
+.stripes.reverse {
+  animation-direction: reverse;
 }
 
 /****************************************************************************/
@@ -718,12 +770,12 @@ header nav div div h1 {
 }
 
 .screen {
-  margin-top: 20%;
+  margin-top: 30%;
   position: relative;
   background: #3e3e3e;
   border-radius: 15px;
   width: 100%;
-  height: 60%;
+  height: 400px;
 }
 
 .screen:after {

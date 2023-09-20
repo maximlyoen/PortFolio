@@ -72,8 +72,46 @@ function changeLanguage() {
         document.querySelector("#SitePcVente").textContent = "Custom pc sales site";
         document.querySelector(".textSitePcVente").textContent = "The goal of this project is to create a site or business that sells something. It was necessary to create a site adapted to customers with a strong power of attraction";
         /*--------------------Compétence--------------------*/
+        document.querySelector(".MesCompetence").textContent = "My skills";
         /*--------------------Expérience--------------------*/
+        document.querySelector(".College").textContent = "College";
+        document.querySelector(".TitreCollege").textContent = "Collège Gérard Philippe Bagnols-sur-Cèze (30200)";
+        document.querySelector(".TextCollege").textContent = "During these years I had to do an internship in a company. This internship allowed me to understand the importance of safety in a company and cooperation in working within a team.";
+        document.querySelector(".Lycee").textContent = "Lycée";
+        document.querySelector(".TitreLycee").textContent = "Albert Einstein School Bagnols-sur-Cèze (30200)";
+        document.querySelector(".TextLycee").textContent = "This diploma allowed me to acquire a versatile technological training in the fields of industry and sustainable development.";
+        document.querySelector(".ereAnnee1").textContent = "1st year IUT Informatique";
+        document.querySelector(".Titre1ereAnnee").textContent = "IUT informatique Bordeaux site Gradignan (33170)";
+        document.querySelector(".Text1ereAnnee1").textContent = "what I learned:";
+        document.querySelector(".Text1ereAnnee2").textContent = "-adapt to working in hybrid and remote";
+        document.querySelector(".Text1ereAnnee3").textContent = "-risk management";
+        document.querySelector(".Text1ereAnnee4").textContent = "-Integrate a work ecosystem";
+        document.querySelector(".Text1ereAnnee5").textContent = "-an environment that allows me to flourish";
+        document.querySelector(".emeAnnee2").textContent = "2nd year IUT Informatique";
+        document.querySelector(".Titre2emeAnnee").textContent = "IUT informatique Bordeaux site Gradignan (33170)";
+        document.querySelector(".Text2emeAnnee1").textContent = "what I learned:";
+        document.querySelector(".Text2emeAnnee2").textContent = "-The educational continuity of the first year";
+        document.querySelector(".Text2emeAnnee3").textContent = "-Work next to studies in a supermarket";
+        document.querySelector(".Text2emeAnnee4").textContent = "-10 week internship at SimforHealth";
+        document.querySelector(".Text2emeAnnee5").textContent = "-work in a company";
+        document.querySelector(".Text2emeAnnee6").textContent = "-Work on an existing project";
+        document.querySelector(".Text2emeAnnee7").textContent = "-Work in hybrid and remote";
+        document.querySelector(".Text2emeAnnee8").textContent = "-Agile work";
+        document.querySelector(".Text2emeAnnee9").textContent = "-Work in Scrum method";
+        document.querySelector(".emeAnnee3").textContent = "3rd year IUT Informatique";
+        document.querySelector(".Titre3emeAnnee").textContent = "IUT informatique Bordeaux site Gradignan (33170)";
+        document.querySelector(".Text3emeAnnee1").textContent = "what I learned:";
+        document.querySelector(".Text3emeAnnee2").textContent = "-The pedagogical continuity of the first and second years";
+        document.querySelector(".Text3emeAnnee3").textContent = "-Work alongside studies in a Pizzeria as a server";
         /*--------------------Contact--------------------*/
+        document.querySelector(".contact").textContent = "Contact";
+        document.querySelector(".moi").textContent = "Me";
+        document.querySelector("#numeroTel").textContent = "Phone number : +33 7 83 33 01 15";
+        document.querySelector("#Nom/Prenom").placeholder = "First Name/Last Name";
+        document.querySelector("#Email").placeholder = "Email";
+        document.querySelector("#Telephone").placeholder = "Phone number";
+        document.querySelector("#Message").placeholder = "Message";
+        document.querySelector("#envoyer").textContent = "Send";
     } else {
         /*--------------------NavBar--------------------*/
         document.getElementById("BonjourJeSuis").textContent = "Bonjour, je suis";
@@ -113,8 +151,46 @@ function changeLanguage() {
         document.querySelector("#SitePcVente").textContent = "Site de vente pc custom";
         document.querySelector(".textSitePcVente").textContent = "Le but de ce projet est de créer un site ou une entreprise qui vend quelque chose. Il fallait créer un site adapté aux clients avec un fort pouvoir d'attraction";
         /*--------------------Compétence--------------------*/
+        document.querySelector(".MesCompetence").textContent = "Mes compétences";
         /*--------------------Expérience--------------------*/
+        document.querySelector(".College").textContent = "Collège";
+        document.querySelector(".TitreCollege").textContent = "Collège Gérard Philippe Bagnols-sur-Cèze (30200)";
+        document.querySelector(".TextCollege").textContent = "Durant ces années j'ai etait amené à effectuer un stage en entreprise. Ce stage m’a permis de comprendre importance de la sécurité dans une entreprise et de la coopération dans le travail au sein d'une équipe.";
+        document.querySelector(".Lycee").textContent = "Lycée";
+        document.querySelector(".TitreLycee").textContent = "Lycée Albert Einstein Bagnols-sur-Cèze (30200)";
+        document.querySelector(".TextLycee").textContent = "Ce diplôme m’a permis d'acquérir une formation technologique polyvalente dans les domaines de l'industrie et du développement durable.";
+        document.querySelector(".ereAnnee1").textContent = "1ère année IUT Informatique";
+        document.querySelector(".Titre1ereAnnee").textContent = "IUT informatique Bordeaux site Gradignan (33170)";
+        document.querySelector(".Text1ereAnnee1").textContent = "Ce que j’ai appris:";
+        document.querySelector(".Text1ereAnnee2").textContent = "-m’adapter au travail en hybride et remote";
+        document.querySelector(".Text1ereAnnee3").textContent = "-La gestion du risque";
+        document.querySelector(".Text1ereAnnee4").textContent = "-Intégrer un écosystème de travail";
+        document.querySelector(".Text1ereAnnee5").textContent = "-un milieu qui permet de m'épanouir";
+        document.querySelector(".emeAnnee2").textContent = "2ème année IUT Informatique";
+        document.querySelector(".Titre2emeAnnee").textContent = "IUT informatique Bordeaux site Gradignan (33170)";
+        document.querySelector(".Text2emeAnnee1").textContent = "Ce que j’ai appris:";
+        document.querySelector(".Text2emeAnnee2").textContent = "-La continuité pédagogique de la première année";
+        document.querySelector(".Text2emeAnnee3").textContent = "-Travail a coté des etudes dans un supermarché";
+        document.querySelector(".Text2emeAnnee4").textContent = "-Stage en entreprise de 10 semaine chez SimforHealth";
+        document.querySelector(".Text2emeAnnee5").textContent = "-Travail en entreprise";
+        document.querySelector(".Text2emeAnnee6").textContent = "-Travail sur un projet dejà existant";
+        document.querySelector(".Text2emeAnnee7").textContent = "-Travail en hybride et remote";
+        document.querySelector(".Text2emeAnnee8").textContent = "-Travail en méthode agile";
+        document.querySelector(".Text2emeAnnee9").textContent = "-Travail en méthode Scrum";
+        document.querySelector(".emeAnnee3").textContent = "3ème année IUT Informatique";
+        document.querySelector(".Titre3emeAnnee").textContent = "IUT informatique Bordeaux site Gradignan (33170)";
+        document.querySelector(".Text3emeAnnee1").textContent = "Ce que j’ai appris:";
+        document.querySelector(".Text3emeAnnee2").textContent = "-La continuité pédagogique des première et deuxième année";
+        document.querySelector(".Text3emeAnnee3").textContent = "-Travail a coté des etudes dans une Pizzeria en temps que serveur";
         /*--------------------Contact--------------------*/
+        document.querySelector(".contact").textContent = "Contact";
+        document.querySelector(".moi").textContent = "Moi";
+        document.querySelector("#numeroTel").textContent = "Numéro de téléphone : +33 7 83 33 01 15";
+        document.querySelector("#NomPrenom").placeholder = 'Prénom/Nom';
+        document.querySelector("#Email").placeholder = "Email";
+        document.querySelector("#Telephone").placeholder = "Numér de téléphone";
+        document.querySelector("#Message").placeholder = "Message";
+        document.querySelector("#envoyer").textContent = "Envoyer";
     }
 };
 
