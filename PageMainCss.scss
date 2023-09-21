@@ -366,7 +366,6 @@ header nav div div h1 {
   justify-content: center;
   margin-left: 10%;
   margin-right: 10%;
-  padding-bottom: 3%;
   border-bottom: 2px solid red;
 }
 
@@ -541,7 +540,6 @@ header nav div div h1 {
   width: 100vw;
   display: flex;
   align-items: center;
-  padding-top: 50px;
   justify-content: center;
   padding-bottom: 150px;
 }
@@ -666,6 +664,7 @@ animation-duration: 0.134s;
 #timeline {
   display: flex;
   background-color: #031625;
+  height: 100vh;
 
   &:hover {
     .tl-item {

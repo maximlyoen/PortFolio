@@ -47,7 +47,7 @@ function changeLanguage() {
         document.querySelector(".Developpeur").textContent = "Developer";
         /*--------------------Présentation--------------------*/
         document.querySelector(".Bonjour").textContent = "Hello";
-        document.querySelector(".TextPresentation").textContent = "At the age of 20, I chose to move towards the profession of developer because today the technologies of information is at the heart of all business transformations, Now in 3rd yearfrom IUT Informatique in Bordeaux, I like to learn new things and see the extent of knowledge still possibleto learn.";
+        document.querySelector(".TextPresentation").textContent = "At the age of 17, I chose to work as a developer, because nowadays, it is undeniable that information technology plays a central role in all sectors. Currently in my 3rd year of studies at the IUT Informatique de Bordeaux, I have a real passion for learning and discovering new knowledge.";
         document.querySelector(".TelechargerCV").textContent = "Download CV";
         document.querySelector(".Nom").textContent = "Name :";
         document.querySelector(".Prenom").textContent = "Last Name :";
@@ -95,9 +95,6 @@ function changeLanguage() {
         document.querySelector(".Text2emeAnnee4").textContent = "-10 week internship at SimforHealth";
         document.querySelector(".Text2emeAnnee5").textContent = "-work in a company";
         document.querySelector(".Text2emeAnnee6").textContent = "-Work on an existing project";
-        document.querySelector(".Text2emeAnnee7").textContent = "-Work in hybrid and remote";
-        document.querySelector(".Text2emeAnnee8").textContent = "-Agile work";
-        document.querySelector(".Text2emeAnnee9").textContent = "-Work in Scrum method";
         document.querySelector(".emeAnnee3").textContent = "3rd year IUT Informatique";
         document.querySelector(".Titre3emeAnnee").textContent = "IUT informatique Bordeaux site Gradignan (33170)";
         document.querySelector(".Text3emeAnnee1").textContent = "what I learned:";
@@ -126,7 +123,7 @@ function changeLanguage() {
         document.querySelector(".Developpeur").textContent = "Développeur";
         /*--------------------Présentation--------------------*/
         document.querySelector(".Bonjour").textContent = "Bonjour";
-        document.querySelector(".TextPresentation").textContent = "À 20 ans, j’ai choisi de m’orienter vers le métier de développeur car aujourd’hui les technologies de l’information sont présentes au cœur de toutes les transformations d'entreprise, Maintenant en 3ème année d'IUT Informatique à Bordeaux, j'aime apprendre de nouvelles choses et voir ampleur du savoir encore possible à apprendre.";
+        document.querySelector(".TextPresentation").textContent = "À l'âge de 17 ans, j'ai choisi de me diriger vers le métier de développeur, car de nos jours, il est indéniable que les technologies de l'information jouent un rôle central dans tous les secteurs. Actuellement en 3ème année de mon cursus à l'IUT Informatique de Bordeaux, j'éprouve une véritable passion pour l'apprentissage et la découverte de nouvelles connaissances.";
         document.querySelector(".TelechargerCV").textContent = "Télécharger CV";
         document.querySelector(".Nom").textContent = "Nom :";
         document.querySelector(".Prenom").textContent = "Prénom :";
@@ -137,11 +134,11 @@ function changeLanguage() {
         document.querySelector(".calculAge").textContent = " "+ calculerAge(new Date('2002-04-29'), new Date()) + " ans";
         document.querySelector(".Strasbourg").textContent = " Strasbourg";
         /*--------------------PortFolio--------------------*/
-        document.querySelector(".LesProjetQueJaiRealisees").textContent = "Les projets que j'ai réalisées";
+        document.querySelector(".LesProjetQueJaiRealisees").textContent = "Les projets que j'ai mené à bien";
         document.querySelector("#Pong").textContent = "Pong";
-        document.querySelector(".textPong").textContent = "Le projet Pong est un projet ou le but était de recréer le très connu jeu pong. Nous devions ajouterquelques fonctionnalités comme de jouer avec 4 balles";
+        document.querySelector(".textPong").textContent = "Le projet Pong est un projet ou le but était de recréer le très connu jeu pong. Nous devions ajouter quelques fonctionnalités comme de jouer avec 4 balles";
         document.querySelector("#Lowatem").textContent = "Lowatem";
-        document.querySelector(".textLowatem").textContent = "Le projet lowatem es un projet où le but était de créer un jeu de plateau en première partie puis de créer une IA la plus performante possible pour affronter celle des autres équipes.";
+        document.querySelector(".textLowatem").textContent = "Le projet lowatem et un projet où le but était de créer un jeu de plateau en première partie puis de créer une IA la plus performante possible pour affronter celle des autres équipes.";
         document.querySelector("#ComparaisonAlgo").textContent = "Comparaison d'algo";
         document.querySelector(".textComparaisonAlgo").textContent = "Le but de ce projet était de créer 2 programmes et de choisir le plus performant et de dire pourquoi on l'a choisi";
         document.querySelector("#GestionMachineVirtuel").textContent = "Gestion Machine vistuel";
@@ -155,32 +152,29 @@ function changeLanguage() {
         /*--------------------Expérience--------------------*/
         document.querySelector(".College").textContent = "Collège";
         document.querySelector(".TitreCollege").textContent = "Collège Gérard Philippe Bagnols-sur-Cèze (30200)";
-        document.querySelector(".TextCollege").textContent = "Durant ces années j'ai etait amené à effectuer un stage en entreprise. Ce stage m’a permis de comprendre importance de la sécurité dans une entreprise et de la coopération dans le travail au sein d'une équipe.";
+        document.querySelector(".TextCollege").textContent = "En troisième, j'ai eu l'opportunité d'effectuer un stage en entreprise. Ce stage m'a permis de comprendre l'importance de la sécurité et de la coopération en entreprise.";
         document.querySelector(".Lycee").textContent = "Lycée";
         document.querySelector(".TitreLycee").textContent = "Lycée Albert Einstein Bagnols-sur-Cèze (30200)";
-        document.querySelector(".TextLycee").textContent = "Ce diplôme m’a permis d'acquérir une formation technologique polyvalente dans les domaines de l'industrie et du développement durable.";
+        document.querySelector(".TextLycee").textContent = "Le bac STI2D option SIN m’a permis d'acquérir une formation technologique polyvalente dans les domaines de l'industrie et du développement durable.";
         document.querySelector(".ereAnnee1").textContent = "1ère année IUT Informatique";
         document.querySelector(".Titre1ereAnnee").textContent = "IUT informatique Bordeaux site Gradignan (33170)";
         document.querySelector(".Text1ereAnnee1").textContent = "Ce que j’ai appris:";
         document.querySelector(".Text1ereAnnee2").textContent = "-m’adapter au travail en hybride et remote";
         document.querySelector(".Text1ereAnnee3").textContent = "-La gestion du risque";
         document.querySelector(".Text1ereAnnee4").textContent = "-Intégrer un écosystème de travail";
-        document.querySelector(".Text1ereAnnee5").textContent = "-un milieu qui permet de m'épanouir";
+        document.querySelector(".Text1ereAnnee5").textContent = "-Découvrir un milieu professionnel dans lequel je serai à même de m'épanouir";
         document.querySelector(".emeAnnee2").textContent = "2ème année IUT Informatique";
         document.querySelector(".Titre2emeAnnee").textContent = "IUT informatique Bordeaux site Gradignan (33170)";
         document.querySelector(".Text2emeAnnee1").textContent = "Ce que j’ai appris:";
-        document.querySelector(".Text2emeAnnee2").textContent = "-La continuité pédagogique de la première année";
+        document.querySelector(".Text2emeAnnee2").textContent = "-Acquisition de connaisances s'inscrivant dans la continuité pédagogique de la première année";
         document.querySelector(".Text2emeAnnee3").textContent = "-Travail a coté des etudes dans un supermarché";
-        document.querySelector(".Text2emeAnnee4").textContent = "-Stage en entreprise de 10 semaine chez SimforHealth";
+        document.querySelector(".Text2emeAnnee4").textContent = "-Stage professionnel d'une durée de 10 semaines dans l'entreprise SimforHealth";
         document.querySelector(".Text2emeAnnee5").textContent = "-Travail en entreprise";
-        document.querySelector(".Text2emeAnnee6").textContent = "-Travail sur un projet dejà existant";
-        document.querySelector(".Text2emeAnnee7").textContent = "-Travail en hybride et remote";
-        document.querySelector(".Text2emeAnnee8").textContent = "-Travail en méthode agile";
-        document.querySelector(".Text2emeAnnee9").textContent = "-Travail en méthode Scrum";
+        document.querySelector(".Text2emeAnnee6").textContent = "-Travail sur un projet pré-existant, en hybride et remot, avec de sméthodes agile Scrum";
         document.querySelector(".emeAnnee3").textContent = "3ème année IUT Informatique";
         document.querySelector(".Titre3emeAnnee").textContent = "IUT informatique Bordeaux site Gradignan (33170)";
         document.querySelector(".Text3emeAnnee1").textContent = "Ce que j’ai appris:";
-        document.querySelector(".Text3emeAnnee2").textContent = "-La continuité pédagogique des première et deuxième année";
+        document.querySelector(".Text3emeAnnee2").textContent = "-Acquisition de connaisances s'inscrivant dans la continuité pédagogique de la première et deuxième année";
         document.querySelector(".Text3emeAnnee3").textContent = "-Travail a coté des etudes dans une Pizzeria en temps que serveur";
         /*--------------------Contact--------------------*/
         document.querySelector(".contact").textContent = "Contact";
